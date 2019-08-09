@@ -8,6 +8,16 @@
 
 #include <cstdint>
 #include <string>
+class CalculoPrestamo{    
+
+float monto;
+public:
+    
+}
+
+
+
+
 
 
 #endif //CALCULOPRESTAMO_CALCULOPRESTAMO_H
