@@ -4,8 +4,6 @@
 
 #ifndef CALCULOPRESTAMO_CALCULOPRESTAMO_H
 #define CALCULOPRESTAMO_CALCULOPRESTAMO_H
-
-
 #include <cstdint>
 #include <string>
 
