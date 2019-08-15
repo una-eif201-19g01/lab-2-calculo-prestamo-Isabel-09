@@ -16,20 +16,14 @@ private:
 public:
 
     CalculoPrestamo();
-
-    ~CalculoPrestamo();
-
     CalculoPrestamo(int64_t monto);
 
-    std::string reporteCalculoPrestamo(std::string tiempoTXT, std::string porcentajeTXT);//\n separar linea
+    std::string reporteCalculoPrestamo(std::string tiempoTXT, std::string porcentajeTXT); //\n separar linea
 
-    void setMonto(float monto) {
-        this->monto = monto;
-    }
+    void setMonto(float monto);
 
-    float getMonto() const {
-        return monto;
-    }
+    float getMonto() const;
+
 };
 
 
