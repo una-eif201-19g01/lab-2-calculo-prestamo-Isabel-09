@@ -3,7 +3,13 @@
 #include "CalculoPrestamo.h"
 
 int main() {
-    CalculoPrestamo Prestamo(30000.000);
-    Prestamo.reporteCalculoPrestamo("2A","8,4%");
+    CalculoPrestamo Prestamo(30000);
+
+    std::string reporte;
+
+    reporte = Prestamo.reporteCalculoPrestamo("1A", "8.40%");
+
+    std::cout << "Calculo Prestamo es :" << std::endl;
+    std::cout << reporte << std::endl;
     return 0;
 }
